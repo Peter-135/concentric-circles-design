@@ -1,0 +1,66 @@
+/* .spacing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 100vh; 
+ }  */
+
+div p {
+  margin: 0 0 0 1%;
+  padding: 0;
+}
+/* removes all padding and margin from p tags within divs, so the text fits on the same line as the image. only adds some margin-left  */
+
+.more-space {
+  margin-top: 2%;
+}
+/* adds space to the top of the page */
+
+.flex-row {
+  display: flex;
+}
+/* makes small circle and line of text on the same line */
+
+.row-spacing {
+  margin-bottom: 0.7%;
+}
+/* add space to bottom of each row that has small circle and text */
+
+.circle-spacing {
+  margin-bottom: 3%;
+}
+/* adds some spacing big circles and the text below  */
+
+.circle-width {
+  width: 30%;
+}
+/* makes circle 30% of width of div it's inside */
+
+.p-font-size {
+  font-size: 1.35vw;
+}
+
+.p-font-color {
+  color: #737373;
+}
+
+@media (max-width: 768px) {
+  .circle-width {
+    width: 50%;
+  }
+
+  .p-font-size {
+    font-size: 2.35vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .circle-width {
+    width: 80%;
+  }
+
+  .p-font-size {
+    font-size: 3.5vw;
+  }
+}
+/* 768px up responsive, below remains same-size */
